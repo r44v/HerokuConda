@@ -1,0 +1,7 @@
+{
+      "name": "HerokuConda",
+      "description": "miniconda Python 3 jupyter notebook with pandas scipy matplotlib and scikit-learn",
+      "repository": "https://github.com/r44v/HerokuConda",
+      "logo": "https://devcenter-assets0.herokucdn.com/assets/public/getting-started/python-logo-2e21820c8543363034a78ba79d033348836685879ffec1fc25fb2b87c9f88fa1.png",
+      "keywords": ["docker", "miniconda", "python", "pandas", "scipy", "matplotlib", "scikit-learn", "jupyter"]
+}
