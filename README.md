@@ -1,5 +1,7 @@
 # HerokuConda
-A Dockerfile for a python3 miniconda setup tested on heroku
+A Dockerfile for a python3 miniconda setup tested on heroku based on [continuumio/miniconda3](https://hub.docker.com/r/continuumio/miniconda3/)
+This container will run a miniconda Python 3 jupyter notebook with pandas scipy matplotlib and scikit-learn
+
 
 ---
 

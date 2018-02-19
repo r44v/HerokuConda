@@ -18,8 +18,6 @@ RUN mkdir /opt/notebooks
 # Add conda to path
 ENV PATH /opt/conda/bin:$PATH
 
-#ENTRYPOINT [ "/bin/bash" ]
+# Start jupyter notebook // auth token will show in log
 CMD [ "/bin/bash", "-c", "/opt/conda/bin/jupyter notebook --notebook-dir=/opt/notebooks --ip='*' --port=$PORT --no-browser --allow-root" ]
-#ENTRYPOINT [ "/usr/bin/tini", "-s" ]
-#CMD [ "/bin/bash" ]
 
