@@ -5,7 +5,7 @@ A Dockerfile for a python3 miniconda setup tested on heroku
 
 Deploying a docker images requires both docker and the heroku cli to be installed
 
-To deploy docker images to logging in to the heroku registry [herkuku docs](https://devcenter.heroku.com/articles/container-registry-and-runtime)
+To deploy docker images you need to logging in to the heroku registry (see [herkuku docs](https://devcenter.heroku.com/articles/container-registry-and-runtime))
 
 ```bash
 docker login --username=_ --password=$(heroku auth:token) registry.heroku.com
