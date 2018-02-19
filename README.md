@@ -8,7 +8,7 @@ This container will run a miniconda Python 3 jupyter notebook with pandas scipy 
 ## Build and deploy
 Deploying a docker images requires both docker and the heroku cli to be installed
 
-To deploy docker images you need to logging in to the heroku registry (see [herkuku docs](https://devcenter.heroku.com/articles/container-registry-and-runtime))
+To deploy docker images you need to logging in to the heroku registry (see [heroku docs](https://devcenter.heroku.com/articles/container-registry-and-runtime))
 
 ```bash
 docker login --username=_ --password=$(heroku auth:token) registry.heroku.com
