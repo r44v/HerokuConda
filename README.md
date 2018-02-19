@@ -20,3 +20,6 @@ Next build and deploy your app, change <heroku_app_name> to your heroku app name
 docker build . -t registry.heroku.com/<heroku_app_name>/web
 docker push registry.heroku.com/<heroku_app_name>/web
 ```
+
+---
+**note:** deploying again destorys the file system, export your work before updating your app
